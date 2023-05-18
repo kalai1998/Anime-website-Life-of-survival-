@@ -1,0 +1,66 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background:rgb(24, 109, 116)
+    background-size 300% 100%;
+    background-attachment: fixed;
+    
+}
+h1{
+    color: rgb(50, 38, 9);
+    font-weight: bold;
+    background-color: lightblue;
+    background-size: 5%;
+    height: 10%;
+    
+    padding: 0;
+    text-align: center;
+    
+}
+.sk0
+{
+    padding-top: 0px;
+    padding: bottom 0px;;
+}
+.sk1
+{
+color:rgb(50, 40, 13);
+}
+.label1
+{
+    
+    background-color: rgb(108, 156, 156);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+.btn
+{
+    padding: 10px 10px;
+    background: var(--color);
+    border-radius: 20px;
+    cursor: pointer;
+    animation:animate 2s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-color:red;
+    }
+    20%{
+        background-color:green;
+    }
+    40%{
+        background-color:orange;
+    }
+    60%{
+        background-color:yellow;
+    }
+    80%{
+        background-color:brown;
+    }
+    100%{
+        background-color:pink;
+    }
+}
+
+
+
